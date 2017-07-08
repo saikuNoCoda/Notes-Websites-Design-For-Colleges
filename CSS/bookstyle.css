@@ -1,0 +1,13 @@
+img {
+	margin: auto;
+}
+.card {
+	width: 70%;
+	margin: auto;
+}
+.topim {
+	width: 50%;
+	max-height: 400px;
+margin-right: 25%;
+margin-left: 25%; 
+}

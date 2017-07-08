@@ -1,0 +1,397 @@
+
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: none;
+    border-radius: 0 5px 5px 0;
+}
+
+
+@font-face {
+	font-family: 'Abolition Regular';
+	src: url('abolition-regular-webfont.eot');
+  src: url('abolition-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('abolition-regular-webfont.woff') format('woff'),
+       url('abolition-regular-webfont.ttf') format('truetype');
+}
+* {
+	box-sizing: border-box;
+}
+.navbar {
+	overflow: hidden;
+	background-color: black;
+	position: fixed;
+		/*font-family: 'Abolition Regular',Helvetica , Arial , sans-serif;*/
+	color: white;
+	 opacity: 0.3;
+    filter: alpha(opacity=30);
+letter-spacing: 10px;
+     top: 0;
+         width: 100%;
+     border-bottom:  3px solid;
+     z-index: 10;
+       transition: all ease .5s;
+}
+.change {
+	overflow: hidden;
+	background-color: black;
+	color: white;
+	position: fixed;
+		font-family: 'Abolition Regular',Helvetica , Arial , sans-serif;
+letter-spacing: 8px;
+     top: 0;
+         width: 100%;
+     z-index: 10;
+       transition: all ease .5s;
+}
+.navte:hover {
+color: #fff;
+}
+.navte:focus {
+	background-color: #599a68;
+	color: white;
+}
+.navbar ul li {
+	float: right;
+list-style-type: none;
+margin-top: 0px;
+}
+
+.nako {
+	float: right;
+list-style-type: none;
+margin-top: -2px;
+font-size: 1em;
+}
+body {
+	color: #878787;
+	margin: 0;
+font-size: 1em; 
+font-family: "Helvetica Neue" ,Helvetica , Arial , sans-serif;
+line-height: 1.5;
+
+}
+.main-header {
+	background-color:  #599a68;
+padding-top: 170px; 
+height: 850px;
+background:
+#6ab47b url('../Images/mainback.jpg') no-repeat center;
+background-size: cover;
+}
+
+.title {
+color: black;
+font-size: 1.625rem;
+letter-spacing: .065em;
+font-weight: 200;
+border-bottom: 2px solid;
+padding-bottom: 10px;
+text-shadow: 10px 10px 30px black;
+}
+h1,
+h2 {
+	font-family: 'Abolition Regular',Helvetica , Arial , sans-serif;
+}
+h1 {
+	margin: 12px 0 0;
+	font-size: 5.625rem;
+	color: white;
+	text-transform: uppercase;
+	font-weight: normal;
+	line-height: 1.3;
+	 text-shadow: 10px 10px 30px black;
+}
+}
+h2 {
+	font-size: 3.3125em;
+/*text-decoration: underline;
+*/font-weight: normal;
+line-height: 1.1;
+margin-bottom: .5em;
+}
+h3 {
+	font-size: 1.25em;
+	color: #48525c;
+	line-height: 1.2;
+	margin-bottom: 1.7em;
+}
+img {
+	max-width: 100%;
+	margin-bottom: 20px;
+	border-radius: 5%;
+}
+li {
+	margin: 10px;
+}
+.profile-photo {
+	display: block;
+	max-width: 150px;
+	margin: 0 auto 30px;
+	border-radius: 100%;
+}
+section {
+	margin: 0 auto;
+	margin-top: 100px;
+	width: 30%;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-bottom: 50px;
+}
+#Akhilesh {
+	float: right;
+}
+#Divyansh {
+	float: left;
+}
+/*li { 
+	display: inline-block;
+	padding: 0 12px;
+	border-right: solid 1px;
+	margin: 80px 0;
+}*/
+.primary-content,
+ .secondary-content {
+width: 66%;
+
+margin: auto;
+
+}
+.callout {
+	font-size: 1.25em;
+	border-bottom: 3px solid;
+	padding: 0 9px 3px;
+	margin-top: 20px;
+	display: inline-block;
+}
+.primary-content ,
+.main-header {
+text-align: center;
+}
+.primary-content {
+margin-bottom: 7em;
+}
+.secondary-content {
+	
+}
+.t-border {
+	border-top: 2px solid lightgrey;
+}
+#main-footer {
+	text-align:center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	border-bottom: solid 10px #599a68; 
+}
+a:link {
+	color: #599a68;
+	text-decoration: none;
+	
+}
+.navbar a:hover {
+	background-color: orange;
+}
+a:visited {
+	color: #599a68;
+}
+a:active {
+	color: lightcoral;
+}
+a:focus {
+	color: white;
+	background-color: #599a68;
+}
+.wildlife {
+	color: white;
+	background-color: #434a52;
+	padding: 18% 24%;
+	border-top: 10px solid #599a68;
+	margin: 105px 0 60px;
+	font-weight: bold;
+	font-size: 1.5em;
+	background-image: url(../Images/logo.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 5%
+}
+.arrow {
+	width: 50px;
+	margin-top: 130px;
+}
+.tips ,
+.resorts{
+	width:46.5%; 
+}
+.tips {
+	float: left;
+}
+.resorts {
+	float: right;
+}
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+/* Media Querry*/
+@media (max-width: 1024px) {
+
+
+#contact {
+    top: 380px;
+    background-color: #555
+}
+	.primary-content,
+	.secondary-content {
+		width: 90%;
+	}
+	.wildlife {
+		padding: 10% 12%;
+		margin: 50px 0 20px;
+	}
+	#mySidenav a {
+    position: fixed;
+left: -220px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 50%;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: inline;
+ border-radius: 0 30px 30px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#about {
+    top: 40px;
+    background-color: #4CAF50;
+}
+
+#blog {
+    top: 100px;
+    background-color: #2196F3;
+}
+
+#projects {
+    top: 170px;
+    background-color: #f44336;
+}
+.sideima {
+	width: 30px;
+	height: 30px;
+	float: right;
+}
+#contact {
+    top: 230px;
+    background-color: #555
+}
+#l1,#l2,#l3,#l4 {
+display: none;	
+}
+}
+@media (max-width: 560px) {
+	#mySidenav a {
+    position: fixed;
+    left: -115px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 50%;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    max-height: 66px;
+    display: inline;
+    border-radius: 0 30px 30px 0;
+}
+section {
+	margin: 0 auto;
+	margin-top: 100px;
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-bottom: 50px;
+}
+#Akhilesh {
+	float: none;
+}
+#Divyansh {
+	float: none;
+}
+#mySidenav a:hover {
+    left: 0;
+}
+
+#about {
+    top: 40px;
+    background-color: #4CAF50;
+}
+
+#blog {
+    top: 160px;
+    background-color: #2196F3;
+}
+
+#projects {
+    top: 280px;
+    background-color: #f44336;
+}
+
+#contact {
+    top: 400px;
+    background-color: #555
+}
+.primary-content,
+	.secondary-content {
+		width: 100%;
+	padding: 20px;
+	border-top :none;
+	}	
+	.main-header {
+		max-height: 600px;
+		padding: 50px 25px 0;
+	}
+	.title {
+		font-size: 1.3rem;
+		border-style: none;
+	}
+	h1 {
+		font-size: 5rem;
+		line-height: 1.1;
+	}
+	.intro {
+		font-size: 1rem;
+	}
+.resorts,
+.tips {
+float: none;
+width: 100%;
+}
+.main-footer {
+	padding: 20px 0;
+}
+}
+.navte {
+  float: left;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+.social-icon {
+	width: 30px;
+	height: 30px;
+	margin: 0 5px;
+}

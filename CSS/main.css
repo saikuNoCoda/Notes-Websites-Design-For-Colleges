@@ -1,0 +1,169 @@
+/*Setting  link text decoration */
+a {
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+h3 {
+	margin: 0 0 1em 0;
+}
+/*Wrapping images and section*/
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+/*setting top font to centre */
+header {
+	float: left;
+	width: 100%;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+}
+.top {
+	position: fixed;
+}
+#logo {
+	text-align: center;
+	margin: 0;
+}
+a {
+	color: #6ab47b;
+}
+/* setting header*/
+header {
+	background: #6ab47b;
+	border-color: #599a68;
+}
+/* setting headinmgs*/
+h1,h2 {
+	color: #fff;
+}
+h1{
+	font-family: 'Changa One', sans-serif;
+/*font-family: 'Open Sans', ;*/
+margin: 15px 0;
+font-size: 1.90em;
+font-weight: normal;
+line-height: 0.9em;
+}
+h2 {
+	font-size: 0.75em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}
+body {
+	font-family: 'Open Sans' , sans-serif;
+}
+/*************** Navigation ****************/
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+nav li {
+	display: inline-block;}
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+
+}
+/*************Contact ******************/
+.contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+
+/*************** Footer ****************/
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 50px;
+	color: #ccc;
+clear: both;
+}
+.social-icon {
+	width: 30px;
+	height: 30px;
+	margin: 0 5px;
+}
+
+/* setting navigation */
+nav {
+	background: #599a68;
+}
+nav a,nav a:visited {
+	color: #fff;
+}
+nav a.selected ,nav a:hover {
+	color: #32672f
+}
+/* setting body color*/
+body {
+	background-color: #fff;
+	color:  #999;
+}
+/*************** Portfolio ****************/
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#gallery li {
+	float: left;
+	width: 90%;
+	margin: 5%;
+
+	align-content: center;
+	margin-bottom: 160px;
+	max-height: 200px;
+	background-color: #fff;
+	color: #bdc3c7; 
+}
+#gallery li a p {
+margin: 0;
+font-weight: 800;
+color: black;
+padding: 5%;
+text-align: center;
+font-size: 0.75em;
+
+}
+#gallery li a p img {
+	background-color: #fff;
+}
+.profile-photo {
+	display: block;
+	max-width: 150px;
+	margin: 0 auto 30px;
+	border-radius: 100%;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+}
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 100%;
+}
+
+.card:hover {
+    box-shadow: 0 36px 56px 0 rgba(0,0,0,0.2);
+}
+.container {
+    padding: 2px 16px;
+    font-size: 30px;
+ color: black; 
+    font-weight: 800;
+}
